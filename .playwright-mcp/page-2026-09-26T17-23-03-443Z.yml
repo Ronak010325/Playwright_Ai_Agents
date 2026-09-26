@@ -1,0 +1,224 @@
+- generic [ref=f1e3]:
+  - generic:
+    - complementary [ref=f1e4]:
+      - navigation "Sidepanel" [ref=f1e5]:
+        - generic [ref=f1e6]:
+          - link [ref=f1e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=f1e9]
+          - text: 
+        - generic [ref=f1e10]:
+          - generic [ref=f1e11]:
+            - generic [ref=f1e12]:
+              - textbox "Search" [ref=f1e15]
+              - button "" [ref=f1e16] [cursor=pointer]
+            - separator [ref=f1e18]
+          - list [ref=f1e19]:
+            - listitem [ref=f1e20]:
+              - link "Admin" [ref=f1e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+            - listitem [ref=f1e25]:
+              - link "PIM" [ref=f1e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+            - listitem [ref=f1e41]:
+              - link "Leave" [ref=f1e42] [cursor=pointer]:
+                - /url: /web/index.php/leave/viewLeaveModule
+            - listitem [ref=f1e46]:
+              - link "Time" [ref=f1e47] [cursor=pointer]:
+                - /url: /web/index.php/time/viewTimeModule
+            - listitem [ref=f1e54]:
+              - link "Recruitment" [ref=f1e55] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+            - listitem [ref=f1e62]:
+              - link "My Info" [ref=f1e63] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+            - listitem [ref=f1e70]:
+              - link "Performance" [ref=f1e71] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+            - listitem [ref=f1e80]:
+              - link "Dashboard" [ref=f1e81] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+            - listitem [ref=f1e85]:
+              - link "Directory" [ref=f1e86] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+            - listitem [ref=f1e90]:
+              - link "Maintenance" [ref=f1e91] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+            - listitem [ref=f1e96]:
+              - link "Claim" [ref=f1e97] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+            - listitem [ref=f1e105]:
+              - link "Buzz" [ref=f1e106] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+    - banner [ref=f1e110]:
+      - generic [ref=f1e111]:
+        - generic [ref=f1e112]:
+          - text: 
+          - heading "Dashboard" [level=6] [ref=f1e114]
+        - link [ref=f1e116]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=f1e117] [cursor=pointer]
+        - list [ref=f1e123]:
+          - listitem [ref=f1e124]:
+            - generic [ref=f1e125] [cursor=pointer]:
+              - img "profile picture" [ref=f1e126]
+              - paragraph [ref=f1e127]: manda user
+              - generic [ref=f1e128]: 
+      - navigation "Topbar Menu" [ref=f1e130]:
+        - list [ref=f1e131]:
+          - button "" [ref=f1e133] [cursor=pointer]
+  - generic [ref=f1e135]:
+    - generic [ref=f1e137]:
+      - generic [ref=f1e139]:
+        - generic [ref=f1e141]:
+          - generic [ref=f1e142]: 
+          - paragraph [ref=f1e143]: Time at Work
+        - separator [ref=f1e144]
+        - generic [ref=f1e210]:
+          - generic [ref=f1e211]:
+            - img "profile picture" [ref=f1e213]
+            - generic [ref=f1e214]:
+              - paragraph [ref=f1e215]: Punched Out
+              - paragraph [ref=f1e216]: "Punched Out: Today at 10:16 PM (GMT 5.5)"
+          - generic [ref=f1e217]:
+            - generic [ref=f1e218]: 0h 1m Today
+            - button "" [ref=f1e219] [cursor=pointer]
+          - separator [ref=f1e221]
+          - generic [ref=f1e222]:
+            - generic [ref=f1e223]:
+              - paragraph [ref=f1e224]: This Week
+              - paragraph [ref=f1e225]: Sep 21 - Sep 27
+            - generic [ref=f1e226]:
+              - generic [ref=f1e227]: 
+              - paragraph [ref=f1e228]: 0h 1m
+      - generic [ref=f1e148]:
+        - generic [ref=f1e150]:
+          - generic [ref=f1e151]: 
+          - paragraph [ref=f1e152]: My Actions
+        - separator [ref=f1e153]
+        - generic [ref=f1e155]:
+          - img "No Content" [ref=f1e231]
+          - paragraph [ref=f1e156]: No Pending Actions to Perform
+      - generic [ref=f1e158]:
+        - generic [ref=f1e160]:
+          - generic [ref=f1e161]: 
+          - paragraph [ref=f1e162]: Quick Launch
+        - separator [ref=f1e163]
+        - generic [ref=f1e233]:
+          - generic [ref=f1e234]:
+            - button "Assign Leave" [ref=f1e235] [cursor=pointer]
+            - generic "Assign Leave" [ref=f1e238]:
+              - paragraph [ref=f1e239]: Assign Leave
+          - generic [ref=f1e240]:
+            - button "Leave List" [ref=f1e241] [cursor=pointer]
+            - generic "Leave List" [ref=f1e248]:
+              - paragraph [ref=f1e249]: Leave List
+          - generic [ref=f1e250]:
+            - button "Timesheets" [ref=f1e251] [cursor=pointer]
+            - generic "Timesheets" [ref=f1e257]:
+              - paragraph [ref=f1e258]: Timesheets
+          - generic [ref=f1e259]:
+            - button "Apply Leave" [ref=f1e260] [cursor=pointer]
+            - generic "Apply Leave" [ref=f1e263]:
+              - paragraph [ref=f1e264]: Apply Leave
+          - generic [ref=f1e265]:
+            - button "My Leave" [ref=f1e266] [cursor=pointer]
+            - generic "My Leave" [ref=f1e271]:
+              - paragraph [ref=f1e272]: My Leave
+          - generic [ref=f1e273]:
+            - button "My Timesheet" [ref=f1e274] [cursor=pointer]
+            - generic "My Timesheet" [ref=f1e277]:
+              - paragraph [ref=f1e278]: My Timesheet
+      - generic [ref=f1e167]:
+        - generic [ref=f1e169]:
+          - generic [ref=f1e170]: 
+          - paragraph [ref=f1e171]: Buzz Latest Posts
+        - separator [ref=f1e172]
+        - generic [ref=f1e280]:
+          - generic [ref=f1e281]:
+            - generic [ref=f1e282] [cursor=pointer]:
+              - img "profile picture" [ref=f1e284]
+              - generic [ref=f1e285]:
+                - paragraph [ref=f1e286]: manda akhil user
+                - paragraph [ref=f1e287]: 2026-26-09 10:05 PM
+            - separator [ref=f1e288]
+            - paragraph [ref=f1e289]: Excelente dia a todos
+          - generic [ref=f1e290]:
+            - generic [ref=f1e291] [cursor=pointer]:
+              - img "profile picture" [ref=f1e293]
+              - generic [ref=f1e294]:
+                - paragraph [ref=f1e295]: manda akhil user
+                - paragraph [ref=f1e296]: 2026-26-09 10:04 PM
+            - separator [ref=f1e297]
+            - paragraph [ref=f1e298]: Throwback Thursdays!!
+          - generic [ref=f1e300]:
+            - generic [ref=f1e301] [cursor=pointer]:
+              - img "profile picture" [ref=f1e303]
+              - generic [ref=f1e304]:
+                - paragraph [ref=f1e305]: manda akhil user
+                - paragraph [ref=f1e306]: 2026-26-09 09:55 PM
+            - separator [ref=f1e307]
+            - paragraph [ref=f1e308]: fsdfsddsfsdsdfsdf
+          - generic [ref=f1e309]:
+            - generic [ref=f1e310] [cursor=pointer]:
+              - img "profile picture" [ref=f1e312]
+              - generic [ref=f1e313]:
+                - paragraph [ref=f1e314]: manda akhil user
+                - paragraph [ref=f1e315]: 2020-08-10 09:08 AM
+            - separator [ref=f1e316]
+            - paragraph [ref=f1e317]: "Hi All; Linda has been blessed with a baby boy! Linda: With love, we welcome your dear new baby to this world. Congratulations!"
+          - generic [ref=f1e318]:
+            - generic [ref=f1e319] [cursor=pointer]:
+              - img "profile picture" [ref=f1e321]
+              - generic [ref=f1e322]:
+                - paragraph [ref=f1e323]: Sania Shaheen
+                - paragraph [ref=f1e324]: 2020-08-10 09:08 AM
+            - separator [ref=f1e325]
+            - paragraph [ref=f1e326]: "World Championship: What makes the perfect snooker player? Mark Selby: Robertson has one of the best techniques in the game. It is very, very straight and he fully commits to every single shot he plays. John Higgins: Every shot is repetitive. He always keeps the same technique and cues through the ball bang straight. Barry Hawkins: Robertson is textbook with his grip and has a ramrod solid cue action, delivering it in a straight line. Honourable mentions: Shaun Murphy, Ding Junhui, Jack Lisowski."
+      - generic [ref=f1e176]:
+        - generic [ref=f1e177]:
+          - paragraph [ref=f1e182]: Employees on Leave Today
+          - generic [ref=f1e183] [cursor=pointer]: 
+        - separator [ref=f1e184]
+        - generic [ref=f1e328]:
+          - img "No Content" [ref=f1e329]
+          - paragraph [ref=f1e330]: No Employees are on Leave Today
+      - generic [ref=f1e188]:
+        - generic [ref=f1e190]:
+          - generic [ref=f1e191]: 
+          - paragraph [ref=f1e192]: Employee Distribution by Sub Unit
+        - separator [ref=f1e193]
+        - list [ref=f1e335]:
+          - listitem [ref=f1e336] [cursor=pointer]:
+            - generic "Engineering" [ref=f1e338]
+          - listitem [ref=f1e339] [cursor=pointer]:
+            - generic "Human Resources" [ref=f1e341]
+          - listitem [ref=f1e342] [cursor=pointer]:
+            - generic "Client Services" [ref=f1e344]
+          - listitem [ref=f1e345] [cursor=pointer]:
+            - generic "Administration" [ref=f1e347]
+          - listitem [ref=f1e348] [cursor=pointer]:
+            - generic "Sales & Marketing" [ref=f1e350]
+          - listitem [ref=f1e351] [cursor=pointer]:
+            - generic "Finance" [ref=f1e353]
+          - listitem [ref=f1e354] [cursor=pointer]:
+            - generic "Unassigned" [ref=f1e356]
+      - generic [ref=f1e197]:
+        - generic [ref=f1e199]:
+          - generic [ref=f1e200]: 
+          - paragraph [ref=f1e201]: Employee Distribution by Location
+        - separator [ref=f1e202]
+        - list [ref=f1e361]:
+          - listitem [ref=f1e362] [cursor=pointer]:
+            - generic "Texas R&D" [ref=f1e364]
+          - listitem [ref=f1e365] [cursor=pointer]:
+            - generic "New York Sales Office" [ref=f1e367]
+          - listitem [ref=f1e368] [cursor=pointer]:
+            - generic "Unassigned" [ref=f1e370]
+    - generic [ref=f1e205]:
+      - paragraph [ref=f1e206]: OrangeHRM OS 5.9
+      - paragraph [ref=f1e207]:
+        - text: © 2005 - 2026
+        - link "OrangeHRM, Inc" [ref=f1e208] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.

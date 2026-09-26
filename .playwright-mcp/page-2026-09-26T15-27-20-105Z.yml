@@ -1,0 +1,292 @@
+- generic [ref=f2e3]:
+  - generic:
+    - complementary [ref=f2e4]:
+      - navigation "Sidepanel" [ref=f2e5]:
+        - generic [ref=f2e6]:
+          - link [ref=f2e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=f2e9]
+          - text: 
+        - generic [ref=f2e10]:
+          - generic [ref=f2e11]:
+            - generic [ref=f2e12]:
+              - textbox "Search" [ref=f2e15]
+              - button "" [ref=f2e16] [cursor=pointer]
+            - separator [ref=f2e18]
+          - list [ref=f2e19]:
+            - listitem [ref=f2e20]:
+              - link "Admin" [ref=f2e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+            - listitem [ref=f2e25]:
+              - link "PIM" [ref=f2e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+            - listitem [ref=f2e41]:
+              - link "Leave" [ref=f2e42] [cursor=pointer]:
+                - /url: /web/index.php/leave/viewLeaveModule
+            - listitem [ref=f2e46]:
+              - link "Time" [ref=f2e47] [cursor=pointer]:
+                - /url: /web/index.php/time/viewTimeModule
+            - listitem [ref=f2e54]:
+              - link "Recruitment" [ref=f2e55] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+            - listitem [ref=f2e62]:
+              - link "My Info" [ref=f2e63] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+            - listitem [ref=f2e70]:
+              - link "Performance" [ref=f2e71] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+            - listitem [ref=f2e80]:
+              - link "Dashboard" [ref=f2e81] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+            - listitem [ref=f2e85]:
+              - link "Directory" [ref=f2e86] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+            - listitem [ref=f2e90]:
+              - link "Maintenance" [ref=f2e91] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+            - listitem [ref=f2e96]:
+              - link "Claim" [ref=f2e97] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+            - listitem [ref=f2e105]:
+              - link "Buzz" [ref=f2e106] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+    - banner [ref=f2e110]:
+      - generic [ref=f2e111]:
+        - generic [ref=f2e112]:
+          - text: 
+          - heading "PIM" [level=6] [ref=f2e114]
+        - link [ref=f2e116]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=f2e117] [cursor=pointer]
+        - list [ref=f2e123]:
+          - listitem [ref=f2e124]:
+            - generic [ref=f2e125] [cursor=pointer]:
+              - img "profile picture" [ref=f2e126]
+              - paragraph [ref=f2e127]: Ann Fujii
+              - generic [ref=f2e128]: 
+      - navigation "Topbar Menu" [ref=f2e130]:
+        - list [ref=f2e131]:
+          - listitem [ref=f2e132] [cursor=pointer]:
+            - generic [ref=f2e133]:
+              - text: Configuration
+              - generic [ref=f2e134]: 
+          - listitem [ref=f2e135] [cursor=pointer]:
+            - link "Employee List" [ref=f2e136]:
+              - /url: "#"
+          - listitem [ref=f2e137] [cursor=pointer]:
+            - link "Add Employee" [ref=f2e138]:
+              - /url: "#"
+          - listitem [ref=f2e139] [cursor=pointer]:
+            - link "Reports" [ref=f2e140]:
+              - /url: "#"
+          - button "" [ref=f2e142] [cursor=pointer]
+  - generic [ref=f2e144]:
+    - generic [ref=f2e146]:
+      - generic [ref=f2e147]:
+        - generic [ref=f2e148]:
+          - heading "Employee Information" [level=5] [ref=f2e150]
+          - button "" [ref=f2e153] [cursor=pointer]
+        - separator [ref=f2e155]
+        - generic [ref=f2e157]:
+          - generic [ref=f2e159]:
+            - generic [ref=f2e161]:
+              - generic [ref=f2e162]: Employee Name
+              - textbox "Type for hints..." [ref=f2e167]
+            - generic [ref=f2e169]:
+              - generic [ref=f2e170]: Employee Id
+              - textbox [ref=f2e173]
+            - generic [ref=f2e175]:
+              - generic [ref=f2e176]: Employment Status
+              - generic [ref=f2e180] [cursor=pointer]:
+                - generic [ref=f2e181]: Full-Time Permanent
+                - generic [ref=f2e182]: 
+            - generic [ref=f2e185]:
+              - generic [ref=f2e186]: Include
+              - generic [ref=f2e190] [cursor=pointer]:
+                - generic [ref=f2e191]: Current Employees Only
+                - generic [ref=f2e192]: 
+            - generic [ref=f2e195]:
+              - generic [ref=f2e196]: Supervisor Name
+              - textbox "Type for hints..." [ref=f2e201]
+            - generic [ref=f2e203]:
+              - generic [ref=f2e204]: Job Title
+              - generic [ref=f2e208] [cursor=pointer]:
+                - generic [ref=f2e209]: "-- Select --"
+                - generic [ref=f2e210]: 
+            - generic [ref=f2e213]:
+              - generic [ref=f2e214]: Sub Unit
+              - generic [ref=f2e218] [cursor=pointer]:
+                - generic [ref=f2e219]: "-- Select --"
+                - generic [ref=f2e220]: 
+          - separator [ref=f2e222]
+          - generic [ref=f2e223]:
+            - button "Reset" [ref=f2e224] [cursor=pointer]
+            - button "Search" [active] [ref=f2e225] [cursor=pointer]
+      - generic [ref=f2e226]:
+        - button " Add" [ref=f2e228] [cursor=pointer]:
+          - generic [ref=f2e229]: 
+          - text: Add
+        - generic [ref=f2e1564]:
+          - separator [ref=f2e1565]
+          - generic [ref=f2e1566]: (7) Records Found
+        - table [ref=f2e231]:
+          - rowgroup [ref=f2e1568]:
+            - row [ref=f2e1569]:
+              - columnheader "" [ref=f2e1570]:
+                - generic [ref=f2e1572] [cursor=pointer]:
+                  - checkbox "" [ref=f2e1573]
+                  - generic [ref=f2e1574]: 
+              - columnheader "Id " [ref=f2e1576]:
+                - text: Id
+                - generic [ref=f2e1577]:
+                  - generic [ref=f2e1578] [cursor=pointer]: 
+                  - text:  
+              - columnheader "First (& Middle) Name " [ref=f2e1579]:
+                - text: First (& Middle) Name
+                - generic [ref=f2e1580]:
+                  - generic [ref=f2e1581] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Last Name " [ref=f2e1582]:
+                - text: Last Name
+                - generic [ref=f2e1583]:
+                  - generic [ref=f2e1584] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Job Title " [ref=f2e1585]:
+                - text: Job Title
+                - generic [ref=f2e1586]:
+                  - generic [ref=f2e1587] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Employment Status " [ref=f2e1588]:
+                - text: Employment Status
+                - generic [ref=f2e1589]:
+                  - generic [ref=f2e1590] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Sub Unit " [ref=f2e1591]:
+                - text: Sub Unit
+                - generic [ref=f2e1592]:
+                  - generic [ref=f2e1593] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Supervisor " [ref=f2e1594]:
+                - text: Supervisor
+                - generic [ref=f2e1595]:
+                  - generic [ref=f2e1596] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Actions" [ref=f2e1597]
+          - rowgroup [ref=f2e1598]:
+            - row [ref=f2e1600] [cursor=pointer]:
+              - cell "" [ref=f2e1601]:
+                - generic [ref=f2e1605]:
+                  - checkbox "" [ref=f2e1606]
+                  - generic [ref=f2e1607]: 
+              - cell "12345" [ref=f2e1609]
+              - cell "Ann Joe" [ref=f2e1611]
+              - cell "Fujii" [ref=f2e1613]
+              - cell "HR Manager" [ref=f2e1615]
+              - cell "Full-Time Permanent" [ref=f2e1617]
+              - cell "Human Resources" [ref=f2e1619]
+              - cell [ref=f2e1621]
+              - cell [ref=f2e1622]:
+                - button "" [ref=f2e1624]
+            - row [ref=f2e1627] [cursor=pointer]:
+              - cell "" [ref=f2e1628]:
+                - generic [ref=f2e1631]:
+                  - checkbox "" [ref=f2e1632]
+                  - generic [ref=f2e1633]: 
+              - cell "2ZBQZ602" [ref=f2e1635]
+              - cell "John" [ref=f2e1637]
+              - cell "Doe" [ref=f2e1639]
+              - cell "Automaton Tester" [ref=f2e1641]
+              - cell "Full-Time Permanent" [ref=f2e1643]
+              - cell [ref=f2e1645]
+              - cell [ref=f2e1646]
+              - cell [ref=f2e1647]:
+                - generic [ref=f2e1648]:
+                  - button "" [ref=f2e1649]
+                  - button "" [ref=f2e1651]
+            - row [ref=f2e1654] [cursor=pointer]:
+              - cell "" [ref=f2e1655]:
+                - generic [ref=f2e1658]:
+                  - checkbox "" [ref=f2e1659]
+                  - generic [ref=f2e1660]: 
+              - cell "G2T3E706" [ref=f2e1662]
+              - cell "John" [ref=f2e1664]
+              - cell "Doe" [ref=f2e1666]
+              - cell "Automaton Tester" [ref=f2e1668]
+              - cell "Full-Time Permanent" [ref=f2e1670]
+              - cell [ref=f2e1672]
+              - cell [ref=f2e1673]
+              - cell [ref=f2e1674]:
+                - generic [ref=f2e1675]:
+                  - button "" [ref=f2e1676]
+                  - button "" [ref=f2e1678]
+            - row [ref=f2e1681] [cursor=pointer]:
+              - cell "" [ref=f2e1682]:
+                - generic [ref=f2e1685]:
+                  - checkbox "" [ref=f2e1686]
+                  - generic [ref=f2e1687]: 
+              - cell "EVSTC957" [ref=f2e1689]
+              - cell "John" [ref=f2e1691]
+              - cell "Doe" [ref=f2e1693]
+              - cell "Automaton Tester" [ref=f2e1695]
+              - cell "Full-Time Permanent" [ref=f2e1697]
+              - cell [ref=f2e1699]
+              - cell [ref=f2e1700]
+              - cell [ref=f2e1701]:
+                - generic [ref=f2e1702]:
+                  - button "" [ref=f2e1703]
+                  - button "" [ref=f2e1705]
+            - row [ref=f2e1708] [cursor=pointer]:
+              - cell "" [ref=f2e1709]:
+                - generic [ref=f2e1712]:
+                  - checkbox "" [ref=f2e1713]
+                  - generic [ref=f2e1714]: 
+              - cell "0034" [ref=f2e1716]
+              - cell "Russel" [ref=f2e1718]
+              - cell "Hamilton" [ref=f2e1720]
+              - cell "Software Engineer" [ref=f2e1722]
+              - cell "Full-Time Permanent" [ref=f2e1724]
+              - cell "Development" [ref=f2e1726]
+              - cell [ref=f2e1728]
+              - cell [ref=f2e1729]:
+                - generic [ref=f2e1730]:
+                  - button "" [ref=f2e1731]
+                  - button "" [ref=f2e1733]
+            - row [ref=f2e1736] [cursor=pointer]:
+              - cell "" [ref=f2e1737]:
+                - generic [ref=f2e1740]:
+                  - checkbox "" [ref=f2e1741]
+                  - generic [ref=f2e1742]: 
+              - cell "0087" [ref=f2e1744]
+              - cell "Sania" [ref=f2e1746]
+              - cell "Shaheen" [ref=f2e1748]
+              - cell "Customer Success Manager" [ref=f2e1750]
+              - cell "Full-Time Permanent" [ref=f2e1752]
+              - cell "Technical Support" [ref=f2e1754]
+              - cell [ref=f2e1756]
+              - cell [ref=f2e1757]:
+                - generic [ref=f2e1758]:
+                  - button "" [ref=f2e1759]
+                  - button "" [ref=f2e1761]
+            - row [ref=f2e1764] [cursor=pointer]:
+              - cell "" [ref=f2e1765]:
+                - generic [ref=f2e1768]:
+                  - checkbox "" [ref=f2e1769]
+                  - generic [ref=f2e1770]: 
+              - cell "0103" [ref=f2e1772]
+              - cell "Sara" [ref=f2e1774]
+              - cell "Tencrady" [ref=f2e1776]
+              - cell "Payroll Administrator" [ref=f2e1778]
+              - cell "Full-Time Permanent" [ref=f2e1780]
+              - cell "Human Resources" [ref=f2e1782]
+              - cell "Ann Fujii" [ref=f2e1784]
+              - cell [ref=f2e1786]:
+                - generic [ref=f2e1787]:
+                  - button "" [ref=f2e1788]
+                  - button "" [ref=f2e1790]
+    - generic [ref=f2e236]:
+      - paragraph [ref=f2e237]: OrangeHRM OS 5.9
+      - paragraph [ref=f2e238]:
+        - text: © 2005 - 2026
+        - link "OrangeHRM, Inc" [ref=f2e239] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.
